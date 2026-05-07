@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: mineflayer-bot
+    env: node
+    buildCommand: apt-get install -y openjdk-21-jre-headless && npm install
+    startCommand: bash start.sh
+    envVars:
+      - key: MC_HOST
+        value: your.server.ip
+      - key: MC_PORT
+        value: 25565
+      - key: MC_USERNAME
+        value: BotName
+      - key: PROXY_PORT
+        value: 25566
