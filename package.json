@@ -1,0 +1,16 @@
+{
+  "name": "mineflayer-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "bash start.sh"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "mineflayer": "^4.37.1",
+    "express": "^5.2.1",
+    "ws": "^8.18.0"
+  }
+}
